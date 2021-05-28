@@ -8,6 +8,9 @@ Customers who have performance concerns can use this solution as a reference whi
 
 We use a pre-trained MobileNet Keras application for image classification and a pre-trained EfficientDet TF2 model for object detection. We deploy both on Amazon SageMaker with an inference script that implements a handler function to perform preprocessing and inference with TensorFlow serving. We create one endpoint with REST in-server communication with TFS and another using gRPC. We demonstrate latency for each of these endpoints for each use case with a sample image.  
 
+![image (5)](https://user-images.githubusercontent.com/8871432/118111158-37c81000-b3db-11eb-8ab2-45b04366e64b.png)
+
+
 ## Security
 
 See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
